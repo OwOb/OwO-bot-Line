@@ -2,7 +2,7 @@ var linebot = require('linebot');
 //require('dotenv').config();
  
 var bot = linebot({
-  channelId: '1653707396',//process.env.CHANNEL_ID,
+  channelId: 'U730f3417d7850657727815c4926197c6',//process.env.CHANNEL_ID,
   channelSecret: '22edb3562a89f30e25c1917510187e5d',//process.env.CHANNEL_SECRET,
   channelAccessToken: 'X4hPtwmB6ZShzqSeUjsk7jZSMie9SN2iBlKNPupjGLqsrYcIiilmTjk8nbUnZD8126C61MbonpTLQ3x798KlCSDpjDMlrfeFTlGXUX13Jw9C9D+EBOuZ5xZp0CwJ7L2esDIzpTLozjn1qWyY/YJNUwdB04t89/1O/w1cDnyilFU='//process.env.CHANNEL_ACCESS_TOKEN
 });
