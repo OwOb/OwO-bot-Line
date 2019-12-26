@@ -12,16 +12,17 @@ bot.on('message', function (event) {
   // event.message.text是使用者傳給bot的訊息
   // 使用event.reply(要回傳的訊息)方法可將訊息回傳給使用者
   event.reply(event.message.text).then(function (data) {
-	  console.log('owo')
+	  console.log('owo');
 	  console.log(data);
     // 當訊息成功回傳後的處理
   }).catch(function (error) {
-	  console.log('QAQ')
+	  console.log('QAQ');
 	  console.log(error);
     // 當訊息回傳失敗後的處理
   });
 });
  
 bot.listen('/linewebhook', process.env.PORT || 5000, function () {
+	console.log(process.env.PORT);
     console.log('[BOT已準備就緒]');
 });
