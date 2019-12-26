@@ -22,6 +22,6 @@ bot.on('message', function (event) {
   });
 });
  
-bot.listen('https://owo-bot-line.herokuapp.com/callback', process.env.PORT, function () {
+bot.listen('https://owo-bot-line.herokuapp.com/callback', 3000, function () {
 	console.log('[BOT已準備就緒]');
 });
