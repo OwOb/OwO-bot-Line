@@ -22,6 +22,6 @@ bot.on('message', function (event) {
   });
 });
  
-bot.listen('/linewebhook', 3000, function () {
+bot.listen('/callback', 3000, function () {
 	console.log('[BOT已準備就緒]');
 });
