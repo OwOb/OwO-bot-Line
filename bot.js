@@ -22,7 +22,6 @@ bot.on('message', function (event) {
   });
 });
  
-bot.listen('/linewebhook', process.env.PORT || 5000, function () {
-	console.log(process.env.PORT);
-    console.log('[BOT已準備就緒]');
+bot.listen(3000, function () {
+	console.log('[BOT已準備就緒]');
 });
