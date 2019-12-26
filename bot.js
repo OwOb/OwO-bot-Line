@@ -22,6 +22,6 @@ bot.on('message', function (event) {
   });
 });
  
-bot.listen('/callback', 3000, function () {
+bot.listen(process.env.PORT, function () {
 	console.log('[BOT已準備就緒]');
 });
